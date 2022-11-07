@@ -1,0 +1,7 @@
+symbols = ['Cherry', 'Strawberry', 'Grape', 'Plum', 'Watermelon', 'Bar', '7']
+puts 'Tell me your age'
+age = gets.to_i
+if age < 18 do
+  puts 'Your age is under 18, according to the slot rules we cant gave you permission to play that game.'
+  exit
+end
