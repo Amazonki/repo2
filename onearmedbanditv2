@@ -1,4 +1,5 @@
 symbols = ['Cherry', 'Strawberry', 'Grape', 'Plum', 'Watermelon', 'Bar', '7']
+phrases = ['Good Luck', 'It was close', 'Fortune favors the brave', 'Live one day']
 puts 'Tell me your age'
 age = gets.to_i
 if age < 18 do
@@ -13,4 +14,7 @@ if money <= 0 do
   exit
 end
 
+deposit.times do
+  puts phrases.sample
+end
 
