@@ -2,13 +2,15 @@ symbols = ['Cherry', 'Strawberry', 'Grape', 'Plum', 'Watermelon', 'Bar', '7']
 puts 'Tell me your age'
 age = gets.to_i
 if age < 18 do
-  puts 'Your age is under 18, according to the slot rules we cant gave you permission to play that game.'
+  puts 'Your age is under 18, according to the slot rules we cant gave you permission to play this game.'
   exit
 end
 
 puts 'How much money do you have?'
-money = gets.to_f
+deposit = gets.to_f
 if money <= 0 do
   puts 'You dont have enough money to play this game'
   exit
 end
+
+
