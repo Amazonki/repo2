@@ -2,24 +2,23 @@ symbols = ['Cherry', 'Strawberry', 'Grape', 'Plum', 'Watermelon', 'Bar', '7']
 phrases = ['Good Luck', 'It was close', 'Fortune favors the brave', 'Live one day']
 puts 'Tell me your age'
 age = gets.to_i
-if age < 18 do
+if age < 18
   puts 'Your age is under 18, according to the slot rules we cant gave you permission to play this game.'
   exit
 end
 
 puts 'How much money do you have?'
 deposit = gets.to_f
-if money <= 0 do
+if money <= 0
   puts 'You dont have enough money to play this game'
   exit
 end
 
 deposit.times do
   puts phrases.sample
-  firstreel = symbols.sample
-  secondreel = symbols.sample
-  thirdreel = symbols.sample
-  puts "reel № 1 = #{1reel}, reel №2 = #{2reel}, reel №3 = #{3reel}"
+  x = symbols.sample
+  y = symbols.sample
+  z = symbols.sample
+  puts "reel № 1 = #{x}, reel №2 = #{y}, reel №3 = #{z}"
   puts "Current balance: #{money}"
 end
-
