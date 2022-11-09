@@ -20,6 +20,6 @@ deposit.times do
   secondreel = symbols.sample
   thirdreel = symbols.sample
   puts "reel № 1 = #{1reel}, reel №2 = #{2reel}, reel №3 = #{3reel}"
-  puts "Current balance: #{money}
+  puts "Current balance: #{money}"
 end
 
