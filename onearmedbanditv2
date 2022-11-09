@@ -8,8 +8,8 @@ if age < 18
 end
 
 puts 'How much money do you have?'
-deposit = gets.to_f
-if money <= 0
+deposit = gets.to_i
+if deposit <= 0
   puts 'You dont have enough money to play this game'
   exit
 end
