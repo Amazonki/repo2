@@ -16,9 +16,11 @@ end
 
 deposit.times do
   puts phrases.sample
+  spin = 1
+  money = deposit - spin
   x = symbols.sample
   y = symbols.sample
   z = symbols.sample
   puts "reel № 1 = #{x}, reel №2 = #{y}, reel №3 = #{z}"
-  puts "Current balance: #{deposit}"
+  puts "Current balance: #{money}"
 end
