@@ -16,9 +16,9 @@ end
 
 deposit.times do
   puts phrases.sample
-  1reel = symbols.sample
-  2reel = symbols.sample
-  3reel = symbols.sample
+  firstreel = symbols.sample
+  secondreel = symbols.sample
+  thirdreel = symbols.sample
   puts "reel № 1 = #{1reel}, reel №2 = #{2reel}, reel №3 = #{3reel}"
   puts "Current balance: #{money}
 end
