@@ -35,7 +35,7 @@ if x == 'Cherry' && y == 'Cherry' && z == 'Cherry'
   elsif x == 'Grape' && y == 'Grape' && z == 'Grape'
     puts 'Whats the difference between a grape, apple and an arm? you dont slice a grape. Ger your 14$'
     money = money + 14
-  elsif x == 'Plum' && y == 'Plum' z == 'Plum'
+  elsif x == 'Plum' && y == 'Plum' && z == 'Plum'
     puts 'Get your 16$'
     money = money + 16
   elsif x == 'Watermelon' && y == 'Watermelon' && z == 'Watermelon'
