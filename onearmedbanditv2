@@ -18,6 +18,8 @@ deposit.times do
   puts phrases.sample
   spin = 1
   deposit = deposit - spin
+  puts "Press Enter"
+  gets
   x = symbols.sample
   y = symbols.sample
   z = symbols.sample
