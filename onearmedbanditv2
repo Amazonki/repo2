@@ -21,6 +21,7 @@ deposit.times do
   x = symbols.sample
   y = symbols.sample
   z = symbols.sample
+  puts
   puts "reel № 1 = #{x}, reel №2 = #{y}, reel №3 = #{z}"
   puts "Current balance: #{money}"
 end
