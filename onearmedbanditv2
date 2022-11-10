@@ -15,17 +15,17 @@ if deposit <= 0
 end
 
 deposit.times do
-  puts phrases.sample
   spin = 1
   deposit = deposit - spin
-  puts "Press Enter"
-  gets
   x = symbols.sample
   y = symbols.sample
   z = symbols.sample
   puts
-  puts "Reel № 1 = #{x}, Reel №2 = #{y}, Reel №3 = #{z}"
+  puts "|#{x}| |#{y}| |#{z}|"
   puts "Current balance: #{deposit}"
+  puts phrases.sample
+  puts "Press Enter"
+  gets
   sleep 1
   
   if x == 'Cherry' && y == 'Cherry' && z == 'Cherry'
