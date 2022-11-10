@@ -1,4 +1,4 @@
-symbols = ['Cherry', 'Strawberry', 'Grape', 'Plum', 'Watermelon', 'Bar', '7']
+symbols = ['Cherry', 'Strawberry', 'Grape', 'Plum', 'Watermelon', 'Lemon', 'Bar', '7']
 phrases = ['Good Luck', 'It was close', 'Fortune favors the brave', 'Live one day']
 puts 'Tell me your age'
 age = gets.to_i
@@ -23,4 +23,38 @@ deposit.times do
   z = symbols.sample
   puts "reel № 1 = #{x}, reel №2 = #{y}, reel №3 = #{z}"
   puts "Current balance: #{money}"
+end
+
+if x == 'Cherry' && y == 'Cherry' && z == 'Cherry'
+  puts 'Nuka-cherry! Get your 10$'
+  money = money + 10
+
+  elsif x == 'Strawberry' && y == 'Strawberry' && z == 'Strawberry'
+    puts 'Strawberry Fields Forever! Get your 12$'
+    money = money + 12
+  elsif x == 'Grape' && y == 'Grape' && z == 'Grape'
+    puts 'Whats the difference between a grape, apple and an arm? you dont slice a grape. Ger your 14$'
+    money = money + 14
+  elsif x == 'Plum' && y == 'Plum' z == 'Plum'
+    puts 'Get your 16$'
+    money = money + 16
+  elsif x == 'Watermelon' && y == 'Watermelon' && z == 'Watermelon'
+    puts 'Get your 18$'
+    money = money + 18
+  elsif x == 'Lemon' && y == 'Lemon' && z == 'Lemon'
+    puts 'Get your 20$'
+    money = money + 20
+  elsif x == 'Bar' && y == 'Bar' && z == 'Bar'
+    puts 'Get your 22$'
+    money = money + 22
+  elsif x == '7' && y == '7' && z == '7'
+    puts 'Jackpot!!! 777$'
+    money = money + 777
+  end
+end
+
+if money <= 0
+  puts "Your balance is completely off"
+  sleep 2
+  exit
 end
