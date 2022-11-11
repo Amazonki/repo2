@@ -1,5 +1,5 @@
 symbols = ['Cherry', 'Strawberry', 'Grape', 'Plum', 'Watermelon', 'Lemon', 'Bar', '7']
-phrases = ['Good Luck', 'It was close', 'Fortune favors the brave', 'Live one day']
+phrases = ['Good Luck', 'It was close', 'Fortune favors the brave', 'Live one day', 'Always brave', 'Carries the strongest']
 puts 'Tell me your age'
 age = gets.to_i
 if age < 18
@@ -15,7 +15,7 @@ if deposit <= 0
 end
 
 deposit.times do
-  spin = 1
+  spin = 0.5
   deposit = deposit - spin
   x = symbols.sample
   y = symbols.sample
